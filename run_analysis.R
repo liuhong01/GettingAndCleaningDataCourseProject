@@ -48,13 +48,6 @@ selected.features.names <- gsub('-mean', '.Mean.', selected.features.names)
 selected.features.names <- gsub('-std', '.Std.', selected.features.names)
 selected.features.names <- gsub('[-()]', '', selected.features.names)
 
-
-selected.features.names <- gsub('-mean', '.Mean.', selected.features.names)
-selected.features.names <- gsub('-std', '.Std.', selected.features.names)
-selected.features.names <- gsub('[-()]', '', selected.features.names)
-
-
-
 # Step 3: Load datasets
 #
 # Load train dataset
